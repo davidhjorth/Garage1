@@ -1,24 +1,31 @@
 body 	{background-color: beige;}
-h1 	{color: white;  margin-left: 20x;	font-size: 40px;}
-p 	{ margin-left: 40px;	font-size: 20px; 	font-family: Georgia;}
+
 
 .rad1 {background-color: #53ff1a; height: 50vh;}
 
-.header {background-color: blue; height: 10vh; width: 100%; }
-.header {font-size: 35px; text-align:center;}
+.header {background-color: blue; height: 8vh; width: 100%; font-size: 30px; text-align: center; }
 
-.leftcol {background-color: lightblue; height: 80vh; float: left; width: 20%;}
 
-.content {background-color: lightgray; height: 80vh; float: left; width: 60%;}
+
+
+.content {background-color: beige; height: 100%; width: 100%;}
 	
 
-.rightcol {background-color: gray; height: 80vh; float: right; width: 20%;}
 
-.footer {background-color: beige; height: 10vh; width: 100%; clear: both; text-align: center;}
 
-ul {list-style-type:none; background-color: gray; margin: 0px; padding: 0px;}
+.footer {background-color: #4a0000; height: 10vh; width: 100%; clear: both; text-align: center;}
 
-li a { display: block; }
-li a:hover {background-color: darkgray;}
+ul {list-style-type: none; background-color: darkblue; margin: 0px; padding: 0px; overflow: hidden;}
+li {float: left; padding: 1%;}
+
+li a {display inline-block; color: white; text-align: center; text-decoration: none; padding 14px 16px;}
+
+li a:hover {background-color: #4a0000;}
+
+.imagecontainer {height: 40%; width: 100%;}
+
+
+
+
 #karta {width: 800px; height: 500px;}
 

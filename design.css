@@ -1,49 +1,100 @@
 body 	{background-color: beige; margin: 0px;}
+form		{color: black; text-align: left;}
 
 
-.rad1 {background-color: #53ff1a; height: 50vh;}
+.header {
+	background-color: #4a0000; 
+	color: #f5f5dc;
+	height: 18vh; 
+	width: 100%; 
+	font-size: 28px; 
+	text-align: center; 
+	padding: 0px; 
+	margin: 0px;
+	}
 
-.header {background-color: #0000FF; height: 8vh; width: 100%; font-size: 30px; text-align: center; padding: 0px; margin: 0px; }
 
 
 
-
-.content {background-color: beige; height: 100%; width: 100%;}
+.content {
+	background-color: beige;
+	 
+	height: 100%; 
+	width: 100%;
+	}
 	
 
 
 
 .footer { 
-	background-color: #4a0000; 
-	height: 10 vh; 
+	background-color: #06064D; 
+	color: #f5f5dc;
+	height: 15 vh; 
 	width: 100%; 
 	clear: both; 
-	text-align: center;}
+	text-align: center;
+	position:fixed;
+    bottom:0;
+	}
+
+.column {
+	float: left;
+	width: 30%;
+	padding: 100px;
+}
+
+.row: :after {
+	content: "";
+	clear: both;
+	display: table;
+}
 
 ul {
 	list-style-type: none; 
-	background-color: darkblue; 
+	background-color: maroon; 
 	margin: 0px; 
 	padding: 0px; 
 	overflow: hidden;
 	}
-li {float: left; 
+li {
+	float: left; 
 	padding: 0; 
 	margin: 0px
 	}
 
-li a {display inline-block; color: white; text-align: center; text-decoration: none; padding 40px 16px; margin: 0px;}
+li a {
+	display inline-block; 
+	color: beige; 
+	text-align: center; 
+	text-decoration: none; 
+	padding 40px 16px; 
+	margin: 0px;
+	}
 
-li a:hover {background-color: #4a0000;}
+li a:hover {
+	background-color: #4a0000;
+	}
 
 .menu-item {
 	padding: 20px;
 }
 
-.imagecontainer {height: 40%; width: 100%;}
+.imagecontainer {
+	height: 40%; 
+	width: 100%;
+	}
+	
+ <h1> 
+	color: beige;
+	
+
+</h1>
 
 
 
 
-#karta {width: 800px; height: 500px;}
+#karta {
+	width: 800px; 
+	height: 500px;
+	}
 

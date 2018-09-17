@@ -1,11 +1,20 @@
-body 	{background-color: beige; margin: 0px;}
-form		{color: black; text-align: left;}
+body 	{
+	
+	background-color: beige; margin: 0px;
+}
+
+form	{
+	color: black; text-align: left;
+	display: inline-block;
+	}
 
 
 .header {
+
+	font-family: 'Baloo Tammudu', cursive;
 	background-color: #4a0000; 
 	color: #f5f5dc;
-	height: 18vh; 
+	height: 150px;
 	width: 100%; 
 	font-size: 28px; 
 	text-align: center; 
@@ -13,13 +22,24 @@ form		{color: black; text-align: left;}
 	margin: 0px;
 	}
 
+.bokabild {
+
+	float: right;
+	margin-right: 45px;
+	width: 50%;
+	height: 50vh;
+
+}
+
+
 
 
 
 .content {
+	font-family: 'Monoton', cursive;
 	background-color: beige;
 	 
-	height: 100%; 
+	 
 	width: 100%;
 	}
 	
@@ -27,6 +47,7 @@ form		{color: black; text-align: left;}
 
 
 .footer { 
+	font-family: 'Permanent Marker', cursive;
 	background-color: #06064D; 
 	color: #f5f5dc;
 	height: 15 vh; 
@@ -57,6 +78,7 @@ ul {
 	overflow: hidden;
 	}
 li {
+	font-family: 'Oswald', sans-serif;
 	float: left; 
 	padding: 0; 
 	margin: 0px

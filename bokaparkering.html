@@ -1,15 +1,15 @@
-<html>	
+<html>
 
-		<head>
-				<meta name="viewport" content="width=device-width, initial-scale=1.0">
-			<title> Boka din parkering </title>
-			<link rel="stylesheet" type="text/css" href="design.css">
-			
-		</head>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Boka din parkering </title>
+	<link rel="stylesheet" type="text/css" href="design.css">
 
-		<body>
-		
-				<div class="header">
+</head>
+
+<body>
+
+	<div class="header">
 		<nav>
 			<ul>
 				<li><a class="menu-item" href="index.html">Start</a></li>
@@ -17,58 +17,52 @@
 				<li><a class="menu-item" href="hitta.html">Hitta till oss</a></li>
 				<li><a class="menu-item" href="kontakt.html">Kontakt</a></li>
 				<li><a class="menu-item" href="övriga.html">Våra övriga tjänster</a></li>
-				<li><a class="menu-item" href="omoss.html">Information om hemsidan</a></li>	
-				
+				<li><a class="menu-item" href="omoss.html">Information om hemsidan</a></li>
+
 			</ul>
 		</nav>
-		
+
 		<h2>Deluxe Parkering</h2>
-		</div>
+	</div>
 
-		<div class="content">
-		<h2>Boka parkering</h2>	
-			 
-<p>Fyll i texten nedan för att boka parkering:</p>
+	<div class="content container">
 
 
-</div>
+		<h2>Boka parkering</h2>
 
-<div>
-  <form>
-		<label for="fname">Medlemsnummer (6 siffror):</label>
-		<input type="text" id="fname" name="fname">
-	<br>
-		<label for="fname">Starttid:</label>
-		<input type="text" id="fname" name="fname">
-	<br>
-	 <label for="fname">Sluttid:</label>
-		<input type="text" id="fname" name="fname"> 
-	<br> 
-		<label for="fname">Registreringsnummer:</label>
-		<input type="text" id="fname" name="fname">
-	<br>
-	
-	 <p>Klicka på knappen nedan för att bekräfta din bokning
-	 
-		<br>
-		<br>
-		
+		<p>Fyll i texten nedan för att boka parkering:</p>
 
-		<button class="button"></p></i>Börja parkera</button> </p>
-	 
-		
-	</form>
-	<img class="bokabild" src="bilder/boka.jpg" >
+		<form>
+			<label for="fname">Medlemsnummer (6 siffror):</label>
+			<input type="number" id="fname" name="fname" required>
+			<br>
+			<label for="fname">Starttid:</label>
+			<input type="datetime-local" id="fname" name="fname" required>
+			<br>
+			<label for="fname">Sluttid:</label>
+			<input type="datetime-local" id="fname" name="fname" required>
+			<br>
+			<label for="fname">Registreringsnummer:</label>
+			<input type="text" id="fname" name="fname" required>
+			<br>
 
-</div>
+			<p>Klicka på knappen nedan för att bekräfta din bokning</p>
 
-	
+			<button class="button">Börja parkera</button>
+
+
+		</form>
+		<img class="bokabild" src="bilder/boka.jpg">
+
+	</div>
 
 
 
 
-		<div class="footer"><br>David Hjorth &copy 2018</div>
 
-		</body>
+
+	<div class="footer"><br>David Hjorth &copy 2018</div>
+
+</body>
 
 </html>

@@ -114,7 +114,10 @@ li a:hover {
 	height: 40%; 
 	width: 100%;
 	}
-.button:hover {background-color: #06064D;}
+.button:hover {
+	background-color: #06064D;
+	
+}
 
 
 .button {
